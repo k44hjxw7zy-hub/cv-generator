@@ -229,7 +229,7 @@ def home():
             return send_file(
                 file,
                 as_attachment=True,
-                download_name="cv_pro.docx",
+                download_name="cv_Rachid_pro.docx",
                 mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
             )
 
@@ -238,7 +238,7 @@ def home():
     <html>
     <head>
 
-        <title>CV Generator Pro</title>
+        <title>CV Rachid Pro</title>
 
         <style>
 
@@ -289,7 +289,7 @@ def home():
 
         <form method="POST" enctype="multipart/form-data">
 
-            <h2>CV Generator Pro 📄📝</h2>
+            <h2>CV Rachid Pro 📄📝</h2>
 
             <input name="name" placeholder="Full Name" required>
             <input name="email" placeholder="Email" required>
